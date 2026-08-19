@@ -10,14 +10,9 @@ node('nodejs') {
 
     stage('Backend Tests') {
 
-        echo 'kuwar'
+        sh 'oc apply -f deployment.yaml'
 
     }
 
-    stage('Frontend Testssss') {
-
-        echo 'singh'
-
-    }
 
 }
