@@ -14,7 +14,7 @@ node('nodejs') {
 
     }
 
-    stage('Frontend Tests') {
+    stage('Frontend Testssss') {
 
         sh 'node ./frontend/test.js'
 
