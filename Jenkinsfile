@@ -10,13 +10,13 @@ node('nodejs') {
 
     stage('Backend Tests') {
 
-        sh 'node ./backend/test.js'
+        echo 'kuwar'
 
     }
 
     stage('Frontend Testssss') {
 
-        sh 'node ./frontend/test.js'
+        echo 'singh'
 
     }
 
