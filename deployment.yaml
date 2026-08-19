@@ -30,7 +30,7 @@ spec:
 
         - name: myapp
 
-          image: my-memcache
+          image:  quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f878299355cc517bbf89bfa425c148e0dcb9e2363a437675bc6c3c2c223f811c
 
           ports:
 
