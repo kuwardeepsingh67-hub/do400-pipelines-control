@@ -1,11 +1,13 @@
-node('nodejs') {
+pipeline {
 
+    agent any
 
-    stage('Backend Tests') {
-
-        sh 'oc apply -f deployment.yaml'
+    stages {
+        stage('Backend Tests') {
+            steps {
+                sh 'oc apply -f deployment.yaml'
+            }
+        }
 
     }
-
-
 }
