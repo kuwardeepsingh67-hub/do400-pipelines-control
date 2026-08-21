@@ -8,7 +8,7 @@ metadata:
 
 spec:
 
-  replicas: 10
+  replicas: 2
 
   selector:
 
